@@ -164,3 +164,62 @@ a {
 a:hover {
     color: green;
 }
+
+
+/* 热门试用 */
+
+.mian {
+    width: 1000px;
+    margin: 0 auto;
+    height: 350px;
+    position: relative;
+}
+
+.mian>p {
+    font-weight: 700;
+    margin: 20px 0px 20px 5px;
+}
+
+.mian2 {
+    width: 1100px;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+
+.lun {
+    width: 220px;
+    height: 285px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0px 19px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.biaoti {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lun span:nth-of-type(1) {
+    color: chocolate;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 37px;
+}
+
+.lun span {
+    color: chocolate;
+    border: 1px solid chocolate;
+    width: 43px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 220px;
+    left: 70px;
+    margin: 0 -17px;
+}
