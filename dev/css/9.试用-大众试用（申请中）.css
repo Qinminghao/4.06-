@@ -37,6 +37,7 @@
 
 .first:hover {
     color: orangered;
+    cursor: pointer;
 }
 
 a {
@@ -80,6 +81,10 @@ a {
     margin-top: 15px;
     background-color: #505050;
     margin-bottom: 0px;
+}
+
+.first:nth-child(5) {
+    color: #E86540;
 }
 
 .big1 {
@@ -159,32 +164,92 @@ a {
     text-align: center;
     margin-top: 60px;
     font-size: 12px;
+    position: relative;
 }
 
 a:hover {
     color: green;
 }
 
+.mfsy {
+    text-align: center;
+    /* font-weight: 700; */
+    font-size: 30px;
+    margin-top: 30px;
+}
 
-/* 热门试用 */
+.ty div {
+    display: inline-block;
+}
+
+.tyright {
+    margin-left: 50px;
+    opacity: 0.7;
+}
+
+.ty {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.tyleft {
+    color: #E96243;
+    position: relative;
+}
+
+.afte {
+    background-color: #E96243;
+    position: absolute;
+    width: 106px;
+    height: 3px;
+    left: -20px;
+    top: 28px;
+}
+
+.qb {
+    text-align: center;
+    position: absolute;
+    left: 405px;
+    top: 234px;
+    margin-top: 30px;
+}
+
+.qb span {
+    margin-left: 100px;
+}
+
+.qb2 {
+    opacity: 0.6;
+}
+
+
+/* 点击加载更多 */
+
+.jiazai {
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    left: 441px;
+    top: -25px;
+    margin: 0px auto;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.bimg {
+    width: 1515px;
+    background-color: #F7F7F7;
+    margin-top: 50px;
+    overflow: hidden;
+}
 
 .mian {
-    width: 1000px;
+    width: 1050px;
     margin: 0 auto;
     height: 350px;
     position: relative;
-}
-
-.mian>p {
-    font-weight: 700;
-    margin: 20px 0px 20px 5px;
-}
-
-.mian2 {
-    width: 1100px;
-    height: 100%;
-    position: relative;
-    transition-property: transform;
 }
 
 .lun {
@@ -197,6 +262,7 @@ a:hover {
     overflow: hidden;
     position: relative;
     float: left;
+    margin-top: 30px;
 }
 
 .biaoti {
@@ -219,7 +285,25 @@ a:hover {
     height: 20px;
     display: inline-block;
     position: absolute;
-    top: 220px;
+    top: 172px;
     left: 70px;
     margin: 0 -17px;
+}
+
+.p1 {
+    margin-left: -33px;
+    margin-top: 39px;
+    box-sizing: border-box;
+}
+
+.p1 p:nth-of-type(1) {
+    display: inline-block;
+    color: chocolate;
+    border: none;
+    margin: 20px 0 20px 100px;
+}
+
+.p2 {
+    margin-left: 66px;
+    margin-top: -15px;
 }

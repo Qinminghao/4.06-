@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigger{
+    width: 1515px;
+    margin:0px auto;
+}
+/* 状态栏 */
+.bigw{
+    border: 1px solid #ccc;
+    border-top: 1px;
+    /* width: 100%; */
+    margin-bottom: 20px;
+}
+.big{
+    width: 1000px;    
+    margin:auto;  
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.jiguo>img{
+    width: 100px;
+    
+}
+.big>.jiguo{
+    display: inline-block;
+    margin-left: 0px;
+}
+.first{
+    display: inline-block;
+    margin-left: 40px;
+}
+.first:hover{
+    color: orangered;    
+}
+.big>.right{
+    position: absolute;
+    right:0px;
+    top: 20px;
+}
+.big>.right>a{
+    display: inline-block;
+    margin-left: 40px;    
+}
+.big>.right>a:hover{
+    color: orangered;  
+}
+.big>.right>button{
+    margin-left: 40px; 
+    color:orangered;
+    border: 1px orangered solid;
+    font-size: 12px;
+    width: 40px;
+    border-radius: 4px;
+}
+/* 内容 */
+.txt1{
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    float: left;
+    font-size: 13px;
+}
+.txt2{
+    width: 650px;
+    background: rgb(243,243,243);
+    float: right;
+    font-size: 13px;
+}
+.txt1>div{   
+    text-indent: 3em;
+    line-height: 28px;
+}
+.txt2>div{    
+    text-indent: 3em;
+     line-height: 28px;
+}
+.txt1>.b{
+    margin-top: 20px;
+    font-weight: bold;
+    text-indent: 2em;
+}
+.txt2>.b{
+    margin-top: 20px;
+    font-weight: bold;
+    text-indent: 2em;
+}
+h3{
+    margin: 15px;
+}
+/* 尾部css */
+.clear{
+    clear:both;
+}  
+.wei {
+    width: 100%;
+    height: 280px;
+    margin-top: 15px;
+    background-color: #505050;            
+}
+
+.big1 {
+    width: 1300px;
+    height: 280px;
+    margin: 0px auto;
+
+    
+}
+.big2{
+    width: 1050px;
+    margin: 0px auto;
+}
+.erweima {
+    width: 150px;
+    height: 150px;           
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left:30px;
+}
+
+.quan {
+    width: 132px;
+    margin-left:30px;
+    float: left;
+    overflow: hidden;
+    
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+    color: #9F9C92;
+
+}
+
+ul {
+    float: left;
+    margin-top: 20px;
+    margin-left:30px;
+    
+}
+
+.img1 {
+    width: 150px;
+    height: 150px;
+
+}
+
+.img2 {
+
+    width: 130px;
+    height: 46px;
+    margin-bottom: 16px;
+}
+
+.wenzi1 {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #9F9C92;
+}
+
+.title {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.clear{
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #9F9C92;
+    display: inline-block;
+}
+.suo{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 12px;
+}
+a:hover{
+    color:green;
+    
+}
