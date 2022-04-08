@@ -1,0 +1,165 @@
+/* 头部 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bigger{
+    width: 1515px;
+    margin:0px auto;
+    position: relative;
+}
+/* 返回顶部 */
+.fixed{
+    width: 60px;    
+    position: fixed;
+   bottom: 100px;
+   right: 20px;
+
+}
+.fixed .fa{
+    font-size: 80px;
+    color: #9F9C92;
+}
+.sf{
+    color:aquamarine;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+/* 状态栏 */
+.bigw{
+    border: 1px solid #ccc;
+    border-top: 1px;
+    width: 100%;
+    margin-top: 10px;    
+}
+.big{
+    width: 1000px;    
+    margin:auto;    
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+.jiguo>img{
+    width: 100px;
+    
+}
+.big>.jiguo{
+    display: inline-block;
+    margin-left: 0px;
+}
+.first{
+    display: inline-block;
+    margin-left: 40px;
+}
+.first:hover{
+    color: orangered;    
+}
+.big>.right{
+    position: absolute;
+    right:0px;
+    top: 20px;
+}
+.big>.right>a{
+    display: inline-block;
+    margin-left: 40px;    
+}
+.big>.right>a:hover{
+    color: orangered;  
+}
+.big>.right>button{
+    margin-left: 40px; 
+    color:orangered;
+    border: 1px orangered solid;
+    font-size: 12px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+/* 中间接口 */
+.dao{
+    width: 1300px;
+    height:150px;
+    margin:0px auto;
+    overflow: hidden;
+  
+}
+h1{
+    text-align: center;
+   margin-top: 30px;
+}
+.zui{
+    width: 200px;
+    height: 30px;
+    margin: 0px auto;
+    margin-top: 43px; 
+}
+.new{
+    float: left;
+    width: 100px;
+     line-height: 30px;
+    text-align: center;
+    color: #F8572C;
+    border-bottom: 4px solid #F8572C
+}
+.hot{
+    float: right;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+.llist{
+    overflow: hidden;
+    width: 1300px;
+    height:1230px;
+    margin: 0px auto;
+    
+    
+}
+.listt{
+overflow: hidden;
+    width: 1300px;
+    height:1230px;
+    margin: 0px auto;
+    top: 0px;
+   
+}
+#kuang1{
+   margin: 22px;
+}
+.bigkuang{
+        margin: 0px auto;
+         width: 100%;
+         height: 1270px;
+         background:#F7F7F7;
+
+}
+.hot2{
+    color:#F8572C;
+    border-bottom: 4px solid #F8572C;
+}
+
+.new1{
+    border-bottom: none;
+    color:#000000;
+}
+.re{
+    color: #000000;
+
+}
+.re:hover{
+     color: #000000;
+}
+.xin{
+    color: #000000;
+
+}
+.xin:hover{
+     color: #000000;
+}

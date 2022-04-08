@@ -1,0 +1,355 @@
+        /* 头部 */
+        *{
+    margin: 0;
+    padding: 0;
+}
+.bigger{
+    width: 1515px;
+    margin:0px auto;
+    position: relative;
+}
+/* 返回顶部 */
+.fixed{
+    width: 60px;    
+    position: fixed;
+   bottom: 100px;
+   right: 20px;
+
+}
+.fixed .fa{
+    font-size: 80px;
+    color: #9F9C92;
+}
+.sf{
+    color:aquamarine;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+/* 状态栏 */
+.bigw{
+    border: 1px solid #ccc;
+    border-top: 1px;
+    width: 100%;
+    margin-top: 10px;    
+}
+.big{
+    width: 1000px;    
+    margin:auto;    
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+.deng111{
+    color: red;
+}
+.jiguo>img{
+    width: 100px;
+    
+}
+.big>.jiguo{
+    display: inline-block;
+    margin-left: 0px;
+}
+.first{
+    display: inline-block;
+    margin-left: 40px;
+}
+.first:hover{
+    color: orangered;    
+}
+.big>.right{
+    position: absolute;
+    right:0px;
+    top: 20px;
+}
+#right1{
+    position: absolute;
+    right:0px;
+    top: 0px;
+}
+.big>.right>a{
+    display: inline-block;
+    margin-left: 40px;    
+}
+.big>.right>a:hover{
+    color: orangered;  
+}
+.big>.right>button{
+    margin-left: 40px; 
+    color:orangered;
+    border: 1px orangered solid;
+    font-size: 12px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+/* 铺满 */
+.puman{
+    background:url(../img/original.jpg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 250px;
+}
+.bntred{
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    border: 1px;
+}
+.psmall>li{
+    margin-top: 15px;
+    text-align: right;
+}
+.sbu{
+    background-color: #F7D394;
+    font-size: 12px;    
+}
+.psmall{
+    color: #fff;
+    width: 200px;
+    list-style: none;
+    position: absolute;
+    top:20px;
+    right: 250px;
+    animation:move 2s;
+}
+@keyframes move {
+    0%{
+        transform: translate(200px,-200px);
+    }
+}
+
+        /* 尾部css */
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .wei {
+            width: 100%;
+            height: 280px;
+            margin: 0px auto;
+            background-color: #505050;
+        }
+
+        .big1 {
+            width: 1300px;
+            height: 280px;
+            margin: 0px auto;
+        
+            
+        }
+        .big2{
+            width: 1050px;
+            margin: 0px auto;
+        }
+        .erweima {
+            width: 150px;
+            height: 150px;
+           
+            float: left;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left:30px;
+        }
+
+        .quan {
+            width: 132px;
+            margin-left:30px;
+            float: left;
+            overflow: hidden;
+           
+            margin-top: 20px;
+        }
+
+        li {
+            list-style: none;
+            font-size: 12px;
+            color: #9F9C92;
+
+        }
+
+        ul {
+            float: left;
+            margin-top: 20px;
+            margin-left:30px;
+           
+        }
+
+        .img1 {
+            width: 150px;
+            height: 150px;
+
+        }
+
+        .img2 {
+
+            width: 130px;
+            height: 46px;
+            margin-bottom: 16px;
+        }
+
+        .wenzi1 {
+            font-size: 12px;
+            margin-top: 10px;
+            color: #9F9C92;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .clear{
+            clear: both;
+        }
+        a {
+            text-decoration: none;
+            color: #9F9C92;
+            display: inline-block;
+        }
+        .suo{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 12px;
+     }
+     a:hover{
+         color:green;
+         
+     }
+
+     /* 渲染 */
+     /* 报告精选 */
+     .kuangzhu{
+         width: 100%;
+         height: 640px;
+         background:#F7F7F7;
+     }
+     .fafa{
+         float: right;
+         color: #FE5341;
+         overflow: hidden;
+         margin: -20px 50px 0px 0px;
+     }
+    .baogao{
+        width: 1300px;
+        height: 30px;
+        margin: 0px auto;
+        background: #F7F7F7;
+        
+    }
+    .list{
+        width:1300px;
+        height:610px;
+        overflow: hidden;
+        margin: 0px auto;
+        background: #F7F7F7;
+        
+    }
+    .kuang{
+        width: 280px;
+        height: 260px;
+        float: left;
+        margin: 20px 43px 20px 0px;
+        border: 1px solid #A9A9AC;
+        border-radius: 10px;
+        overflow: hidden;
+         background: #fff;
+    }
+    .xuan1{
+        width: 280px;
+        /* height: 220px; */
+    }
+    .wen1{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 50px;
+    }
+  
+    .wen2{
+        font-size: 12px;
+        color:#A9A9AC;
+        float: left;
+         margin-left: 10px;
+       
+    }
+    .shu{
+        font-size: 12px;
+        color: #A9A9AC;
+       
+       
+    }
+    .you{
+         float: right;
+          margin-right: 10px;
+    }
+
+    /* 导购精选 */
+    .list2{
+        width: 1300px;
+        height:330px;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+    .list3{
+        width: 1300px;
+        height: 1250px;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    /* 酷玩 */
+    .wen3{
+        color:red;
+    }
+    .kuangzhu2{
+         width: 100%;
+         height: 1280px;
+         background:#F7F7F7;
+     }
+
+     /* 动画 */
+     .xuan1:hover{
+         animation: lalala 1s infinite;
+     }
+     @keyframes lalala{
+         0% {
+             opacity: 0.4;
+         }
+         50%{
+             opacity: 1;
+         }
+         100%{
+             opacity: 0.4;
+         }
+     } 
+     /* 加载 */
+     .jiazai{
+         width: 150px;
+         height: 20px;
+         text-align: center;
+         color: red;
+         position: relative;
+         margin: 0px auto;
+        
+     }
+     .jiantouxia{
+         position: absolute;
+         left: 0px;
+         top:7px;
+     }
+     .zhuanquan{
+         
+        display: none;
+         position: absolute;
+         left: 0px;
+     }

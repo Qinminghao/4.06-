@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/daogou.css">
+    <link rel="stylesheet" href="../css/wei.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bigger">
+
+        <!-- 返回顶部按钮 -->
+        <div class="fixed">
+            <a href="#totop" class="fa fa-sort-up"></a>
+            <div class="sf">Top</div>
+        </div>
+        <!-- 状态栏 -->
+        <div class="bigw" id="totop">
+            <div class="big">
+                <span class="first jiguo"><img src="../img/logonew.png" alt=""></span>
+                <span class="first"><a href="../html/one.html">首页</a> </span>
+                <span class="first"><a href="../html/two.html">酷玩</a> </span>
+                <span class="first"><a href="./daogou.html">导购</a> </span>
+                <span class="first"><a href="../html/eight.html">试用</a> </span>
+                <span class="first"><a href="./tijian.html">报告</a> </span>
+                <span class="right">
+                    <a href="" class="fa fa-search"></a>
+                    <button><a href="../html/sixteen.html"> 注册</a></button>
+                    <button>登录</button>
+                </span>
+            </div>
+        </div>
+
+        <!-- 导购清单 -->
+        <div class="dao">
+            <h1>导购清单</h1>
+            <div class="zui">
+                <div class="new">最新</div>
+                <div class="hot"><a href="./daogouwaibu.html" class="re">最热</a></div>
+            </div>
+        </div>
+
+
+        <!-- 清单渲染 -->
+        <div class="bigkuang">
+            <div class="llist">
+                <!-- 最新-->
+            </div>
+            <!-- <div class="listt"></div> -->
+            <div class="jiazai">
+                <img src="../img/more.png" alt="" class="jiantouxia">
+                <img src="../img/loading-icon.gif" alt="" class="zhuanquan">
+                <span>点击加载更多</span>
+            </div>
+        </div>
+    </div>
+    <script src="../js/template-web.js"></script>
+    <!-- 最新 -->
+    <script id="one" type="text/html">
+
+{{each value}}
+        
+<div class="kuang" id="kuang1">
+    <div>
+        <img src="{{$value.img}}" alt="" class="xuan1">
+    </div>
+    <p class="wen1">{{$value.text}}</p>
+    <div class="you">
+        <img src="../img/xin.png" alt=""><span class="shu">3</span>
+        <img src="../img/xin.png" alt=""><span class="shu">3</span>
+    </div>
+</div>
+<!-- <div class="kuang" id="kuang1">
+    <div>
+        <img src="{{$value.img}}" alt="" class="xuan1">
+    </div>
+    <p class="wen1">{{$value.text}}</p>
+    <div class="you">
+        <img src="../img/xin.png" alt=""><span class="shu">3</span>
+        <img src="../img/xin.png" alt=""><span class="shu">3</span>
+
+    </div>
+</div> -->
+{{/each}}
+    </script>
+
+
+    <div class="wei">
+        <div class="big1">
+            <div class="big2">
+                <div class="erweima"><img src="../img/code.png" alt="" class="img1"></div>
+                <div class="quan">
+                    <div class="tu2"><img src="../img/logoImg.jpg" alt="" class="img2"></div>
+                    <div class="wenzi1"><a href="">全球酷玩试用导购平台酷·新奇·好玩·品质</a></div>
+                    <div class="wenzi1"><a href="">微信添加"JguoJguo”获取我们的服务。</a></div>
+                </div>
+                <ul>
+                    <li><a href="" class="title">免费试用</a></li>
+                    <li><a href="">试用流程</a></li>
+                    <li><a href="">如何提高成功率</a></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="title">友情链接</a></li>
+                    <li><a href="">智东西 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WEIBUSI</a></li>
+                    <li><a href="">
+                            搜狐IT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;腾讯科技 </a>
+                    </li>
+                    <li><a href="">搜狐数码 &nbsp;&nbsp;凤凰科技 </a></li>
+                    <li><a href="">凤凰数码 &nbsp;&nbsp;PConline</a></li>
+                    <li><a href="">泡泡网 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3W咖啡</a></li>
+                    <li><a href="">ZUK社区 &nbsp;&nbsp;亿觅emie</a></li>
+                    <li><a href="">极客公园 &nbsp;&nbsp;易迅易启玩</a></li>
+                    <li><a href="">果库</a></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="title">购买攻略</a></li>
+                    <li><a href="">美亚海淘教程</a></li>
+                    <li><a href="">日亚海淘教程</a></li>
+                    <li><a href="">海淘转运攻略</a></li>
+                    <li><a href="">kickstarter 众筹购买攻略</a></li>
+                    <li><a href="">indiegogo 众筹购买攻略</a></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="title">厂商合作</a></li>
+                    <li><a href="">关于极果</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">商务合作：BD@jiguo.com</a></li>
+                    <li><a href="">CEO邮箱：CEO@jiguo.com</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="suo"><a href="">© 2016 极果版权所有</a></div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- 页面渲染 -->
+    <!-- 调接口 -->
+    <script src="../js/ajax.js"></script>
+    <script>
+        oajax('http://192.168.0.104:3000/guid/new', 'one', 'llist');
+    </script>
+    <!-- <script>
+        oajax('http://192.168.31.110:3000/guid/new','two','listt');
+    </script> -->
+
+
+
+    <!-- </script>点击加载 -->
+    <!-- <script>
+        var jia = document.getElementsByClassName('jiazai')[0];//加载
+        var xia = document.getElementsByClassName('jiantouxia')[0];//下箭头
+        var zhuan = document.getElementsByClassName('zhuanquan')[0];//转圈
+        var list = document.getElementsByClassName('llist')[0];//页面第三个list
+        var kuang = document.getElementsByClassName('bigkuang')[0];//框
+
+        jia.onclick = function () {
+            xia.style.display = 'none';
+            zhuan.style.display = 'block';
+            setTimeout(function () {
+                jia.style.display = 'none'
+                list.style.height = 2150 + 'px';
+                kuang.style.height = 2150 + 'px';
+            }, 5000)
+        }
+
+    </script> -->
+</body>
+
+</html>

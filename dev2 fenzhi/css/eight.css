@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigger{
+    width: 1515px;
+    margin:0px auto;
+    position: relative;
+}
+
+.sone{
+    border-top:3px solid rgb(247,247,247);    
+}
+.ssa{
+    display: inline-block;
+    margin:10px 35px;
+}
+.ssa:hover{
+    color: orangered;
+    border-bottom: 5px solid orangered;
+}
+/* 返回顶部 */
+.fixed{
+    width: 60px;    
+    position: fixed;
+   bottom: 100px;
+   right: 20px;
+
+}
+.fixed .fa{
+    font-size: 80px;
+    color: #9F9C92;
+}
+.sf{
+    color:aquamarine;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    
+}
+/* 图片鼠标悬浮闪动 */
+.jqimg{
+    width: 220px;
+    border-radius: 10px 10px 0px 0px;
+    animation: mov 1s;
+}
+.jqimg:hover{
+    animation: lalala 1s infinite;
+}
+@keyframes lalala{
+    0% {
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.4;
+    }
+} 
+/* jq渲染 */
+.jqdiv{
+    width: 220px;
+    float: left;
+    height: 300px;
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 25px;  
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.jqdiv img{
+    width: 220px;
+    height: 140px;
+    border-radius: 10px 10px 0px 0px;
+}
+h5{
+    margin:5px 0px;
+}
+.jqleft{
+    display: inline-flex;
+    border-radius: 5px;
+    border: 2px solid rgb(9, 235, 9);
+    color:rgb(9, 235, 9);
+    margin:0px 10px;
+}
+.tdiv{
+    color:red;
+    margin:10px 0px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom:28px;
+}
+.sdiv{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom:75px;
+}
+.tdiv span{
+    color:black;
+}
+.fdiv{
+    position: absolute;
+    bottom:5px;
+    width: 100%;
+    text-align: center; 
+    color:rgb(9, 235, 9);   
+}
+.tright1{
+    position: absolute;
+    right:0px;
+    top:0px;
+    background-color:#FFFED8;
+    color:chocolate;
+    font-size: 13px;    
+    padding:5px;
+    border-radius: 0px 10px 0px 10px;
+}
+.tright2{
+    position: absolute;
+    right:0px;
+    top:0px;
+    background-color:orangered;
+    color:#fff;
+    font-size: 13px;    
+    padding:5px;
+    border-radius: 0px 10px 0px 10px;
+}
+.slast{
+    text-align: center;
+    color:gray;
+    background-color: rgb(247,247,247);
+    padding: 20px 0px;
+}

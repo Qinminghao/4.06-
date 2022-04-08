@@ -1,0 +1,106 @@
+/* 热门精选 */
+.mian{
+    width: 1000px;
+    margin: 0 auto;
+    height: 350px;
+    position: relative;
+}
+.mian p:nth-of-type(1){
+    font-weight: 700;
+    
+    /* box-sizing: border-box; */
+    margin: 20px 0 20px 5px;
+}
+
+.swiper-container{
+    width: 1100px;
+    height: 285px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.swiper-wrapper{
+    width:100%;
+    height:100%;
+    position: absolute;
+    
+}
+
+.swiper-slide{
+    margin: 0px auto;
+    display: flex;
+    top: -90x;
+    flex-direction: row;
+}
+
+.lun{
+    width: 220px;
+    height: 285px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0px 19px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    
+}
+.lun img{
+    width: 220px;
+    height: 120px;
+}
+.biaoti{
+    text-align: center;
+    margin-top: 10px;
+}
+.lun span{
+    width: 43px;
+    height: 20px;    
+    display: inline-block;
+    position: absolute;
+    top: 220px;
+    left: 70px;
+  margin: 0 -17px;
+    
+
+}
+.lun span:nth-of-type(1){
+    color: chocolate;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    text-align: center;
+    margin-left:37px;
+}
+.lun span:nth-of-type(2){
+    color: chocolate;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    text-align: center;
+}
+.p1{
+    margin-left: -30px;
+    margin-top: -10px;
+    box-sizing: border-box;
+}
+.p1 p:nth-of-type(1){
+    display: inline-block;
+    color: chocolate;
+    border: none;
+    margin: 20px 0 20px 100px;
+}
+.p2{
+    color: chocolate;
+    margin-left: 55px;
+    margin-top: -15px;
+}
+.swiper-button-prev{
+    color: #ccc;
+    margin-left: -30px;
+    box-sizing: border-box;
+}
+
+.swiper-button-next{
+    color: #ccc;
+    margin-right: -60px;
+    position: absolute;
+    top: 1000px;
+    box-sizing: border-box;
+}
