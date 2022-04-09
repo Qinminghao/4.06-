@@ -1,128 +1,292 @@
 [
     {
-        "img": "http://127.0.0.1:3000/img/hot3.jpg",
-        "text": "Liquid Image 338 运动摄像眼镜",
-        "uName": "苏亚",
-        "endTime": "2020-7-28",
-        "info_ty": "首发",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
+        "title": "生活",
+        "list": [
+            {
+                "productName": "空气进化器",
+                "nums": 21
+            },
+            {
+                "productName": "吸尘器",
+                "nums": 21
+            },
+            {
+                "productName": "扫地机器人",
+                "nums": 21
+            },
+            {
+                "productName": "电风扇",
+                "nums": 21
+            },
+            {
+                "productName": "净水壶",
+                "nums": 21
+            },
+            {
+                "productName": "电饭煲",
+                "nums": 21
+            },
+            {
+                "productName": "咖啡机",
+                "nums": 21
+            },
+            {
+                "productName": "原汁机",
+                "nums": 21
+            },
+            {
+                "productName": "电视机",
+                "nums": 21
+            },
+            {
+                "productName": "空凋",
+                "nums": 21
+            },
+            {
+                "productName": "洗衣机",
+                "nums": 21
+            },
+            {
+                "productName": "加湿器",
+                "nums": 21
+            },
+            {
+                "productName": "净水壶",
+                "nums": 21
+            },
+            {
+                "productName": "热水器",
+                "nums": 21
+            }
+        ]
     },
     {
-        "img": "http://127.0.0.1:3000/img/hot4.jpg",
-        "text": "巴慕达 The Toaster 烤面包机",
-        "uName": "爱猫",
-        "endTime": "2020-9-30",
-        "info_ty": "体验师转享",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
+        "title": "个人护理",
+        "list": [
+            {
+                "productName": "电动牙刷",
+                "nums": 21
+            },
+            {
+                "productName": "洗牙器",
+                "nums": 21
+            },
+            {
+                "productName": "洗鼻器",
+                "nums": 21
+            },
+            {
+                "productName": "口罩",
+                "nums": 21
+            },
+            {
+                "productName": "剃须刀",
+                "nums": 21
+            },
+            {
+                "productName": "洁面仪",
+                "nums": 21
+            },
+            {
+                "productName": "美容器",
+                "nums": 21
+            },
+            {
+                "productName": "美发器",
+                "nums": 21
+            },
+            {
+                "productName": "电吹风",
+                "nums": 21
+            }
+        ]
     },
     {
-        "img": "http://127.0.0.1:3000/img/hot5.jpg",
-        "text": "Osprey小鹰户外运动专业腰包",
-        "uName": "亚亚",
-        "endTime": "2020-9-30",
-        "info_ty": "首发",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
+        "title": "智能穿戴",
+        "list": [
+            {
+                "productName": "智能手表",
+                "nums": 21
+            },
+            {
+                "productName": "智能手环",
+                "nums": 21
+            },
+            {
+                "productName": "智能眼睛",
+                "nums": 21
+            },
+            {
+                "productName": "智能服装",
+                "nums": 21
+            },
+            {
+                "productName": "其它穿戴设备",
+                "nums": 21
+            },
+            {
+                "productName": "VR/AR眼睛",
+                "nums": 21
+            }
+        ]
     },
     {
-        "img": "http://127.0.0.1:3000/img/hot6.jpg",
-        "text": "空气净化器里面学问多得惊呆你，你选对了吗？",
-        "uName": "楠楠",
-        "endTime": "2020-9-30",
-        "info_ty": "首发",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
+        "title": "出行",
+        "list": [
+            {
+                "productName": "空气进化器",
+                "nums": 21
+            },
+            {
+                "productName": "吸尘器",
+                "nums": 21
+            },
+            {
+                "productName": "扫地机器人",
+                "nums": 21
+            },
+            {
+                "productName": "电风扇",
+                "nums": 21
+            },
+            {
+                "productName": "净水壶",
+                "nums": 21
+            },
+            {
+                "productName": "电饭煲",
+                "nums": 21
+            },
+            {
+                "productName": "咖啡机",
+                "nums": 21
+            },
+            {
+                "productName": "原汁机",
+                "nums": 21
+            },
+            {
+                "productName": "电视机",
+                "nums": 21
+            },
+            {
+                "productName": "空凋",
+                "nums": 21
+            },
+            {
+                "productName": "洗衣机",
+                "nums": 21
+            },
+            {
+                "productName": "加湿器",
+                "nums": 21
+            },
+            {
+                "productName": "净水壶",
+                "nums": 21
+            },
+            {
+                "productName": "热水器",
+                "nums": 21
+            }
+        ]
     },
     {
-        "img": "http://127.0.0.1:3000/img/hot1.jpg",
-        "text": "怎么骑都不会累的智能自行车：云马 C1试骑体验",
-        "uName": "长安",
-        "endTime": "2020-5-25",
-        "info_ty": "体验师转享",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
+        "title": "运动户外",
+        "list": [
+            {
+                "productName": "跑鞋",
+                "nums": 21
+            },
+            {
+                "productName": "压缩衣",
+                "nums": 21
+            },
+            {
+                "productName": "跑步手表",
+                "nums": 21
+            },
+            {
+                "productName": "运动耳机",
+                "nums": 21
+            },
+            {
+                "productName": "运动内衣",
+                "nums": 21
+            },
+            {
+                "productName": "跑步配件",
+                "nums": 21
+            },
+            {
+                "productName": "冲锋衣",
+                "nums": 21
+            },
+            {
+                "productName": "户外鞋靴",
+                "nums": 21
+            },
+            {
+                "productName": "帐篷",
+                "nums": 21
+            },
+            {
+                "productName": "睡袋",
+                "nums": 21
+            }
+        ]
     },
     {
-        "img": "http://127.0.0.1:3000/img/hot2.jpg",
-        "text": "声音不是最优秀，但它形音完美的结合，足够打动人心",
-        "uName": "兔子",
-        "endTime": "2020-5-25",
-        "info_ty": "首发",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
-    },
-    {
-        "img": "http://127.0.0.1:3000/img/hot7.jpg",
-        "text": "风光大片信手拈来！vivo X6Plus不只是快，还是一台拍照利器",
-        "uName": "兔子",
-        "endTime": "2021-2-25",
-        "info_ty": "首发",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
-    },
-    {
-        "img": "http://127.0.0.1:3000/img/hot8.jpg",
-        "text": "到底有没有完美的iPhone手机配件，答案都在这里",
-        "uName": "长安",
-        "endTime": "2020-2-24",
-        "info_ty": "首发",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
-    },
-    {
-        "img": "http://127.0.0.1:3000/img/g3.jpg",
-        "text": "Liquid Image 338 运动摄像眼镜",
-        "uName": "猫眼",
-        "endTime": "2020-2-22",
-        "info_ty": "体验师转享",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
-    },
-    {
-        "img": "http://127.0.0.1:3000/img/g4.jpg",
-        "text": "巴慕达 The Toaster 烤面包机",
-        "uName": "猫眼",
-        "endTime": "2020-2-21",
-        "info_ty": "首发",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
-    },
-    {
-        "img": "http://127.0.0.1:3000/img/g1.jpg",
-        "text": "Osprey小鹰户外运动专业腰包",
-        "uName": "猫眼",
-        "endTime": "2020-8-20",
-        "info_ty": "体验师转享",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
-    },
-    {
-        "img": "http://127.0.0.1:3000/img/g2.jpg",
-        "text": "空气净化器里面学问多得惊呆你，你选对了吗？",
-        "uName": "苏亚",
-        "endTime": "2020-4-19",
-        "info_ty": "首发",
-        "totalnum": 2032,
-        "num": 20,
-        "apply": 1392
-    },
-    {
-        "img": "http://127.0.0.1:3000/img/k1.jpg",
-        "text": "怎么骑都不会累的智能自行车：云马 C1试骑体验",
-        "uName": "苏亚",
-        "endTime": "2020-8-19"
+        "title": "数码家电",
+        "list": [
+            {
+                "productName": "手机",
+                "nums": 21
+            },
+            {
+                "productName": "手机配件",
+                "nums": 21
+            },
+            {
+                "productName": "移动电源",
+                "nums": 21
+            },
+            {
+                "productName": "对讲机",
+                "nums": 21
+            },
+            {
+                "productName": "数码单反",
+                "nums": 21
+            },
+            {
+                "productName": "运动相机",
+                "nums": 21
+            },
+            {
+                "productName": "胶片相机",
+                "nums": 21
+            },
+            {
+                "productName": "笔记本",
+                "nums": 21
+            },
+            {
+                "productName": "平板电脑",
+                "nums": 21
+            },
+            {
+                "productName": "显示器",
+                "nums": 21
+            },
+            {
+                "productName": "键盘",
+                "nums": 21
+            },
+            {
+                "productName": "鼠标",
+                "nums": 21
+            }
+        ]
     }
 ]
