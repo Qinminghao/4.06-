@@ -60,19 +60,30 @@
     </div>
     <script src="../js/template-web.js"></script>
     <script id="two" type="text/html">
-                    {{each value item }}
-                    {{each item j }}
-                    <div class="kuang" id="kuang1">
-                        <div>
-                            <img src="{{$value.img}}" alt="" class="xuan1">
-                        </div>
-                        <p class="wen1">{{$value.text}}</p>
-                        <div class="you">
-                            <img src="../img/xin.png" alt=""><span class="shu">3</span>
-                            <img src="../img/xin.png" alt=""><span class="shu">3</span>
-                        </div>
-                    </div>
-                    {{/each}}
+        {{each value}}
+        
+        <div class="kuang" id="kuang1">
+            <div>
+                <img src="{{$value.img}}" alt="" class="xuan1">
+            </div>
+            <p class="wen1">{{$value.text}}</p>
+            <div class="you">
+                <img src="../img/xin.png" alt=""><span class="shu">3</span>
+                <img src="../img/xin.png" alt=""><span class="shu">3</span>
+            </div>
+        </div>
+        <!-- <div class="kuang" id="kuang1">
+            <div>
+                <img src="{{$value.img}}" alt="" class="xuan1">
+            </div>
+            <p class="wen1">{{$value.text}}</p>
+            <div class="you">
+                <img src="../img/xin.png" alt=""><span class="shu">3</span>
+                <img src="../img/xin.png" alt=""><span class="shu">3</span>
+        
+            </div>
+        </div> -->
+        {{/each}}
                 </script>
     <script src="../js/ajax.js"></script>
 
